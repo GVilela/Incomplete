@@ -1,0 +1,297 @@
+* { margin: 0;
+    padding: 0;
+}
+
+.subtitle{
+    color: grey;
+    position: relative;
+    margin: 0 auto;
+    height: 100px;
+    margin-top: -12%;
+    margin-left: 3%;
+}
+
+.btns{
+    text-align: center;
+    margin-top: 25px;
+    border-radius: 100%;
+    margin: 0 auto;
+    width:100%;
+}
+
+.efeito{
+    outline: rgb(33, 212, 162);
+    padding: 25px;
+    font-size: 25px;
+    line-height: 25px;
+    width: 175px;
+    height: 175px;
+    border-radius:100%;
+    position: relative;
+    cursor: pointer;
+    transition: all 500ms ease;
+    }
+ 
+.efeito-sobre{
+    background: rgb(33, 212, 162);
+    background-image: url("institucional.jpg");
+    border-radius: 100%;
+    height: 175px;
+    width: 175px;
+    margin-left: -1%;
+}
+.efeito-sobre:hover {
+    position: relative;
+    box-shadow: inset 0 0 0 px rgb(33, 212, 162);
+    width: 175px;
+    height:175px;
+    border-radius: 100%;
+}
+.efeito-sobre:hover::after{
+    visibility: visible;
+}
+.efeito-sobre::after{
+    background: url(institucional_01.jpg) no-repeat
+                rgba(255, 255, 255, .6);
+    background-position: 45% 55%;
+    box-shadow: inset 0 0 0 3px rgb(33, 212, 162);
+    border-radius: 100%;
+    cursor: pointer;
+    content: '';
+    line-height: 25px;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    width: 100%
+
+}
+
+.efeito-contato{
+    background: rgb(33, 212, 162);
+    background-image: url("contato.jpg");
+    border-radius: 100%;
+    height: 175px;
+    width: 175px;
+    margin-top: -7%;
+    margin-left: 30%;
+}
+.efeito-contato:hover {
+    position: relative;
+    box-shadow: inset 0 0 0 3px rgb(33, 212, 162);
+    width: 175px;
+    height:175px;
+    border-radius: 100%;
+}
+.efeito-contato:hover::after{
+    visibility: visible;
+}
+.efeito-contato::after{
+    background: url("contato_01.jpg") no-repeat
+                rgba(255, 255, 255, .6);
+    background-position: 45% 55%;
+    box-shadow: inset 0 0 0 3px rgb(33, 212, 162);
+    border-radius: 100%;
+    cursor: pointer;
+    content: '';
+    line-height: 25px;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    width: 100%
+
+}
+
+.efeito-sale{
+    background: rgb(33, 212, 162);
+    background-image: url("sale.jpg");
+    border-radius: 100%;
+    height: 175px;
+    width: 175px;
+    margin-top: 3%; 
+    margin-left: 39%;
+}
+.efeito-sale:hover {
+    position: relative;
+    box-shadow: inset 0 0 0 3px rgb(33, 212, 162);
+    width: 175px;
+    height: 175px;
+    border-radius: 100%;
+   
+}
+.efeito-sale:hover::after{
+    visibility: visible;
+}
+.efeito-sale::after{
+    background: url(sale_01.jpg) no-repeat
+                rgba(255, 255, 255, .6);
+    background-position: 45% 55%;
+    box-shadow: inset 0 0 0 3px rgb(33, 212, 162);
+    border-radius: 100%;
+    cursor: pointer;
+    content: '';
+    line-height: 25px;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    width: 100%
+
+}
+
+.efeito-seja-fornecedora{
+    background: rgb(33, 212, 162);
+    background-image: url("seja_fornecedora.jpg");
+    border-radius: 100%;
+    height: 175px;
+    width: 175px;
+    margin-top: 1%;
+    margin-left: 22%;
+}
+.efeito-seja-fornecedora:hover {
+    position: relative;
+    box-shadow: inset 0 0 0 3px rgb(33, 212, 162);
+    width: 175px;
+    height: 175px;
+    border-radius: 100%;
+}
+.efeito-seja-fornecedora:hover::after{
+    visibility: visible;
+}
+.efeito-seja-fornecedora::after{
+    background: url(Seja_fornecedora_01.jpg) no-repeat
+                rgba(255, 255, 255, .6);
+    background-position: 45% 55%;
+    box-shadow: inset 0 0 0 3px rgb(33, 212, 162);
+    border-radius: 100%;
+    cursor: pointer;
+    content: '';
+    line-height: 25px;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    width: 100%
+}
+
+.efeito-blog{
+    background: rgb(33, 212, 162);
+    background-image: url("vitrina-galpao.jpg");
+    border-radius: 100%;
+    height: 175px;
+    width: 175px;
+    margin-top: -13%;
+    margin-right: 11%;
+}
+.efeito-blog:hover {
+    position: relative;
+    box-shadow: inset 0 0 0 3px rgb(231, 243, 240);
+    width: 175px;
+    height:175px;
+    border-radius: 100%;
+}
+.efeito-blog:hover::after{
+    visibility: visible;
+}
+.efeito-blog::after{
+    background: url(6e922389-60a6-41c7-b7a1-8312aceccdfe.jpeg) no-repeat
+                rgba(255, 255, 255, .6);
+    background-position: 45% 55%;
+    box-shadow: inset 0 0 0 3px rgb(33, 212, 162);
+    border-radius: 100%;
+    cursor: pointer;
+    content: '';
+    line-height: 25px;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    width: 100%
+
+}
+
+.efeito-luxo{
+    background: rgb(33, 212, 162);
+    background-image: url("luxo.jpg");
+    border-radius: 100%;
+    height: 175px;
+    width: 175px;
+    margin-top: -25.3%;
+    margin-right: 35%;
+}
+.efeito-luxo:hover {
+    position: relative;
+    box-shadow: inset 0 0 0 3px rgb(33, 212, 162);
+    width: 175px;
+    height:175px;
+    border-radius: 100%;
+}
+.efeito-luxo:hover::after{
+    visibility: visible;
+}
+.efeito-luxo::after{
+    background: url(luxo_01.jpg) no-repeat
+                rgba(255, 255, 255, .6);
+    background-position: 45% 55%;
+    box-shadow: inset 0 0 0 3px rgb(33, 212, 162);
+    border-radius: 100%;
+    cursor: pointer;
+    content: '';
+    line-height: 25px;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    width: 100%
+
+}
+
+.efeito-elas-de-galpao{
+    background: rgb(33, 212, 162);
+    background-image: url("elas_de_galpao.jpg");
+    border-radius: 100%;
+    height: 175px;
+    width: 175px;
+    margin-top: -41.50%;
+    margin-right: 33%;
+}
+.efeito-elas-de-galpao:hover {
+    position: relative;
+    box-shadow: inset 0 0 0 3px rgb(33, 212, 162);
+    width: 175px;
+    height: 175px;
+    border-radius: 100%;
+}
+.efeito-elas-de-galpao:hover::after{
+    visibility: visible;
+}
+.efeito-elas-de-galpao::after{
+    background: url(elas_galpao.jpg) no-repeat
+                rgba(255, 255, 255, .6);
+    background-position: 45% 55%;
+    box-shadow: inset 0 0 0 3px rgb(33, 212, 162);
+    border-radius: 100%;
+    cursor: pointer;
+    content: '';
+    line-height: 25px;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    width: 100%
+}
+.footer{
+    position:absolute;
+    bottom:-50%;
+    width:100%;
+    height:90px;   
+    background: rgb(39, 39, 39);
+}
